@@ -1,0 +1,42 @@
+.flex-container {
+    display: flex;
+}
+
+body {
+    flex-direction: column;
+
+}
+
+header {
+    flex-direction: column;
+
+    background-color: lightblue;
+}
+
+main {
+    background-color: lightcoral;
+}
+
+footer {
+    background-color: lightgreen;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.img-tile {
+    flex-direction: column;
+    height: 40vh;
+    flex-grow: 1;
+}
+
+img {
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+  }
